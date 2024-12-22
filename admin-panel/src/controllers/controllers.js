@@ -422,6 +422,7 @@ const superAdminlogin = async (req, res) => {
       "superadmin login successfully."
     );
   } catch (error) {
+    console.log(error)
     if (session) {
       await session.abortTransaction();
     }

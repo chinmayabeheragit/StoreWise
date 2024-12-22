@@ -1435,6 +1435,7 @@ const Adminlogin = async (req, res) => {
       "admin login successfully."
     );
   } catch (error) {
+    console.log(error)
     if (session) {
       await session.abortTransaction();
     }
