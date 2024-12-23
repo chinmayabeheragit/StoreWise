@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+admin-panel/config/dev.env
+user-panel/config/dev.env
+
+# Coverage reports
+coverage/
+
+# Temporary files and folders
+.DS_Store
+*.swp
+*.tmp
+*.temp
+
+# IDE/OS files
+.vscode/
+.idea/
+
+# Docker-specific
+docker-compose.override.yml
+
+# AWS credentials
+.aws/
+
+# Ignore package-lock.json if needed
+package-lock.json
+
+# Ignore test output
+test-output/
+
+# Ignore Admin Panel Node Modules
+admin-panel/node_modules/
+
+# Ignore User Panel Node Modules
+user-panel/node_modules/
